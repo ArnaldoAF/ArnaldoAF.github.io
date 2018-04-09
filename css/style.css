@@ -1,0 +1,49 @@
+/*
+{
+  border: 1px solid black;
+}
+*/
+
+a i {
+  float:right;
+}
+
+.round {
+  border: 5px solid black;
+  border-radius: 50%;
+  max-width: 100%;
+  height:auto;
+}
+
+.responsive-img {
+  max-height:300px;  
+}
+
+.section .container{
+  padding-top:35px;
+}
+
+/* quando o clicar no link de navegação, a navbar não vai estar sobre os elementos*/
+.parallax-container .section {
+  padding-top:35px;
+}
+
+#banner {
+  height:650px;
+}
+
+#portifolio {
+  background-image:url("https://source.unsplash.com/U5mHl-uACe0/1600x900");
+  background-repeat: repeat-2;
+}
+
+#skills {
+  height:550px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    #skills {
+  height:750px;
+}
+}
